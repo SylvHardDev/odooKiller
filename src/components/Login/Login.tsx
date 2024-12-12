@@ -2,12 +2,12 @@ import "./Login.css";
 
 const Login = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#F6F2EB]">
-      <div className="bg-white shadow-lg rounded-3xl w-full max-w-md p-8">
+    <div className="min-h-screen flex items-center justify-center bg-[#F6F2EB] bg-[url('src/assets/landing-bg.webp')] bg-cover bg-center">
+      <div className="bg-white shadow-lg rounded-xl w-full max-w-xs p-6">
         <h1 className="text-3xl font-bold text-gray-800 text-center mb-4">
           Login
         </h1>
-        <p className="text-gray-500 text-center mb-8">
+        <p className="text-gray-500 text-center mb-8 text-sm">
           Hey, Enter your details to get sign in <br /> to your account
         </p>
         <form>
@@ -16,13 +16,13 @@ const Login = () => {
               htmlFor="email"
               className="block text-sm font-medium text-gray-700"
             >
-              Email / Phone No
+              Email
             </label>
             <input
               type="text"
               id="email"
               className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
-              placeholder="Enter your email or phone number"
+              placeholder="Enter your email"
             />
           </div>
           <div className="mb-4">
