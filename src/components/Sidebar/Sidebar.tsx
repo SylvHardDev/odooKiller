@@ -1,14 +1,15 @@
+import "./Sidebar.css"
 import { CheckCircle, Grid, Calendar, FileText, Box, BarChart, Users, User, Settings, HelpCircle } from "lucide-react";
 
 const Sidebar = () => {
   return (
-    <div className="bg-gradient-to-b from-gray-50 via-white to-gray-100 w-64 h-screen flex flex-col justify-between p-4 border-r">
+    <div className="sidebar bg-gradient-to-b from-gray-50 via-white to-gray-100 w-64 h-screen flex flex-col justify-between p-4 border-r">
       {/* Header */}
       <div className="flex items-center mb-6">
-        <div className="flex items-center justify-center bg-purple-100 rounded-full h-10 w-10">
-          <span className="text-purple-600 font-bold text-xl">W</span>
+        <div className="flex items-center justify-center border border-lime-950 h-10 w-9">
+          <span className="text-green-950 font-bold text-xl">N</span>
         </div>
-        <h1 className="text-xl font-bold text-gray-800 ml-3">weiHu</h1>
+        <h1 className="text-xl font-bold text-gray-800 ml-3">Nuklear</h1>
       </div>
 
       {/* Main Navigation */}
