@@ -1,3 +1,10 @@
 .sidebar {
-    
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    360deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(235, 236, 255, 1) 24%,
+    rgba(243, 230, 242, 1) 72%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
