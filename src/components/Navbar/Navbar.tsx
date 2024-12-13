@@ -1,5 +1,5 @@
 import { Search, Bell, HelpCircle } from "lucide-react";
-import "./Navbar.css"
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
@@ -8,14 +8,15 @@ const Navbar = () => {
       <div className="flex items-center">
         <div>
           <h1 className="text-lg font-bold text-gray-800">
-          <span className="text-slate-300">Welcome,</span><br /> Brooklyn Simmons
+            <span className="text-slate-300">Welcome,</span>
+            <br /> Brooklyn Simmons
           </h1>
         </div>
       </div>
 
       {/* Center Section: Search Bar */}
       <div className="flex-1 mx-6 w-1/2 h-full flex items-center justify-center ">
-        <div className="relative shadow-sm bg-[#fbfbfb5b] flex items-center m-auto w-2/3 rounded-lg text-sm">
+        <div className="relative shadow-sm bg-[#fbfbfb96] flex items-center m-auto w-2/3 rounded-lg text-sm">
           <Search className="absolute left-3 top-2.5 text-gray-500" />
           <input
             type="text"
@@ -30,14 +31,16 @@ const Navbar = () => {
 
       {/* Right Section: Buttons */}
       <div className="flex items-center space-x-4">
-        <button className="p-2 bg-gray-100 rounded-full hover:bg-gray-200">
+        <button className="p-2 bg-white rounded-full hover:bg-gray-200">
           <HelpCircle className="text-gray-600" />
         </button>
-        <button className="p-2 bg-gray-100 rounded-full hover:bg-gray-200">
+        <button className="p-2 bg-white rounded-full hover:bg-gray-200">
           <Bell className="text-gray-600" />
         </button>
       </div>
     </div>
+
+    
   );
 };
 
