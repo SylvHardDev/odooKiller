@@ -1,5 +1,17 @@
-import "./Sidebar.css"
-import { CheckCircle, Grid, Calendar, FileText, Box, BarChart, Users, User, Settings, HelpCircle } from "lucide-react";
+import "./Sidebar.css";
+import {
+  CheckCircle,
+  Grid,
+  Zap,
+  Calendar,
+  FileText,
+  Box,
+  BarChart,
+  Users,
+  User,
+  Settings,
+  HelpCircle,
+} from "lucide-react";
 
 const Sidebar = () => {
   return (
@@ -20,12 +32,14 @@ const Sidebar = () => {
               <CheckCircle className="text-purple-600 mr-3" />
               <span className="text-gray-800 font-medium">Tasks</span>
             </div>
-            <span className="bg-purple-600 text-white text-sm px-2 py-0.5 rounded-full">16</span>
+            <span className="bg-purple-600 text-white text-sm px-2 py-0.5 rounded-full">
+              16
+            </span>
           </div>
         </div>
 
         <div className="flex items-center mb-6">
-          {/* <Lightning className="text-gray-500 mr-3" /> */}
+          <Zap className="text-gray-500 mr-3" />
           <span className="text-gray-600 font-medium">Activities</span>
         </div>
 
